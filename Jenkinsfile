@@ -6,5 +6,10 @@ pipeline{
                 echo "pipeline demo"
             }
         }
+		stage('New'){
+			steps{
+				echo "new stage"
+			}
+		}	
     }
 }
