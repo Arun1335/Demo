@@ -8,7 +8,7 @@ pipeline{
         }
 		stage('New'){
 			steps{
-				echo "new stage"
+				echo "branch"
 			}
 		}	
     }
